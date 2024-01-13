@@ -1,0 +1,130 @@
+body{
+    background-color: transparent;
+    color :white;
+    display: grid;
+    background-image: url(w1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: img 20s linear 1s 2 normal;
+    animation-play-state:running;
+}
+.cadre{
+    padding-top: 1px;
+    border-radius: 60px;
+    width :440px;
+    height :440px;
+    background-color: rgb(198, 211, 219);
+    margin :50px 100px ;
+    text-align: center;
+    box-shadow: white  12px 12px 10px;
+  
+}
+.cadre .nom{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    font-size:40px;
+    font-family: Impact;
+    color:white;
+    text-shadow: gray 10px 10px 10px;
+}
+
+.email input{
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(248, 223, 252);
+    width :50%;
+    padding :12px 25px;
+    margin :40px 80px;
+    margin-bottom:auto ;
+}
+.password input{
+    border: none;
+    border-radius: 20px;
+    background-color:rgb(248, 223, 252);
+    width :50%;
+    padding :12px 25px;
+    margin :10px 80px;
+}
+.cadre .signin input{
+    border: none;
+    border-radius: 20px;
+    padding :6px 40px;
+    margin :10px;
+    margin-top: 35px;
+    background-color: rgb(98, 119, 158);
+    color :black;
+    font-size: large;
+}
+.cadre .or{
+    color :rgb(207, 88, 172);
+    font-size: larger;
+    text-decoration-line: underline;
+    font-weight: 20px;
+    padding-bottom: 10px;
+}
+.cadre .signup a{
+    list-style-type: none;
+    border: none;
+    border-radius: 20px;
+    padding :6px 40px;
+    margin :5px;
+    background-color:rgb(98, 119, 158);
+    color :black;
+    font-size: large;
+}
+input:hover{
+        width :220px;
+        background-color: gray ;
+        cursor : pointer ;
+        letter-spacing: 3px;
+        transition: 1s;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a:hover{
+    width :220px;
+    background-color: gray ;
+    cursor : pointer ;
+    letter-spacing: 3px;
+    transition: 1s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input:focus{
+    background: #000;
+    transform : scale(1.1);
+    color: white;
+    box-shadow: #000 12px 12px 10px;
+}
+.cadre .signup a{
+    text-decoration-line: none;
+}
+body:hover{
+    animation-play-state: paused;
+    cursor : pointer ;
+}
+@keyframes img {
+    0%{
+        background-image:url(w1.jpeg);
+        background-repeat:no-repeat; 
+    }
+    20%{
+        background-image:url(w2.jpeg);
+        background-repeat:no-repeat; 
+    }
+    40%{
+        background-image:url(w3.png);
+        background-repeat:no-repeat; 
+    }
+    60%{
+        background-image:url(w4.jpg);
+        background-repeat:no-repeat; 
+    }
+    80%{
+        background-image:url(w7.jpeg);
+        background-repeat:no-repeat; 
+    }
+    100%{
+        background-image:url(m2.jpg);
+        background-repeat:no-repeat; 
+    }
+}
